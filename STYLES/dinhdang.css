@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+    margin: auto;
+}
+
+.khung {
+    width: 960px;
+    height: 160px;
+}
+
+nav a {
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+	font-size: 13px;
+}
+
+nav {
+    padding-top: 10px;
+    float: left;
+}
+
+.anh {
+    width: 960px;
+}
+
+.phai {
+    float: right;
+    padding-top: 10px;
+}
+
+
+
+
+
+
