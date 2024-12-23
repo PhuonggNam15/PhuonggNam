@@ -1,0 +1,73 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin:auto;}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: 
+    color: white;
+    padding: 10px 20px;
+}
+
+.logo h1 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+    color: red;
+}
+
+.logo p {
+ padding-left: 220px;
+     position: relative;
+    top: 30px;
+	font-size: 10px;
+}
+
+.search-bar {
+	padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.search-bar input {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.search-bar button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.menu {
+    background-color: #003c8f;
+    padding: 10px 20px;
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 15px;
+}
+
+.menu ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 11px;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.menu ul li a:hover {
+    background-color: #0056b3;
+}
+
